@@ -18,7 +18,7 @@ This is my personal web
 #nav{
 	line-height: 20px;
 	background: #eeeeee;
-	height: 2100px;
+	height: 350%;
 	width:100px;
 	float:left;
 	padding: 20px;
@@ -30,6 +30,9 @@ This is my personal web
 	//background-color:rgb(128,128,128);
 	float: left;
 	padding:18px;
+	height: 60%;
+	width:15%;
+
 
 }
 #sec2{
@@ -39,6 +42,14 @@ This is my personal web
 	//background-color:rgb(128,128,128);
 	float: left;
 	padding:30px;
+	height: 60%;
+	width:65%;
+	/*position:fixed;
+    top:0;
+    bottom:0;
+    left:350;
+    right:0;*/
+
 
 }
 table,th,td{
@@ -60,9 +71,9 @@ th,td{
 
 <div id="nav">
 	<a href="http://www.sfu.ca" target="_blank"> 
-	Resume</a><br>
-	exprience<br>
-	Adavanture<br>
+	Resume</a><br><br>
+	exprience<br><br>
+	Adavanture<br><br>
 	photos
 </div>
 
@@ -185,7 +196,18 @@ Computer Science Department Orientation, </em> SFU                              
 <h1 style="color:blue">Interests</h1>
 <hr>
 <li>Basketball, reading, cooking, and hiking</li>
-</div>
+<br/>
+
+<button type="button" onclick="myF()" ><p style="text-align:right">click me</p></button>
+<p id="demo">This is demo</p>
+<script>
+function myF(){
+	document.getElementById("demo").innerHTML="hello";
+}
+</script>
+<p> my project</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ngvxj3niBq0" frameborder="0" allowfullscreen></iframe></div>
 
 
 <body>
